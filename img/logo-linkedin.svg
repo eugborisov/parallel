@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="12px" viewBox="0 0 11 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>linkedin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="landing2-copy" transform="translate(-442.000000, -2266.000000)" fill="#1D87BD" fill-rule="nonzero">
+            <g id="Group-6" transform="translate(433.500000, 2194.000000)">
+                <g id="Group-5" transform="translate(0.000000, 63.500000)">
+                    <g id="Group-11">
+                        <g id="linkedin" transform="translate(8.500000, 9.000000)">
+                            <path d="M2.2,8.8 L2.2,4.191 L3.608,4.191 L3.608,8.8 L2.2,8.8 M3.652,2.915 C3.663,3.311 3.366,3.63 2.893,3.63 C2.453,3.63 2.167,3.311 2.167,2.915 C2.167,2.508 2.464,2.2 2.915,2.2 C3.366,2.2 3.652,2.508 3.652,2.915 M7.348,8.8 L7.348,6.248 C7.348,5.654 7.15,5.247 6.633,5.247 C6.248,5.247 6.017,5.522 5.907,5.786 C5.874,5.885 5.863,6.017 5.863,6.149 L5.863,8.8 L4.455,8.8 L4.455,5.665 C4.455,5.093 4.433,4.609 4.422,4.191 L5.643,4.191 L5.709,4.84 L5.731,4.84 C5.918,4.532 6.38,4.092 7.139,4.092 C8.063,4.092 8.767,4.719 8.767,6.083 L8.767,8.8 L7.348,8.8 M11,0.968 C11,0.44 10.56,0 10.032,0 L0.968,0 C0.44,0 0,0.44 0,0.968 L0,10.032 C0,10.56 0.44,11 0.968,11 L10.032,11 C10.56,11 11,10.56 11,10.032 L11,0.968" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
