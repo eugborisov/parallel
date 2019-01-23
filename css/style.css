@@ -519,7 +519,8 @@ a.active {
 }
 
 a:hover {
-	color: #8289d5
+	color: #8289d5;
+	text-decoration: none!important;
 }
 
 a h1:hover,
@@ -656,19 +657,31 @@ button.full-width {
 	box-sizing: border-box
 }
 
+.btn-primary {
+	border: 0!important;
+	border-color: none!important;
+}
+
 .btn-grey {
 	border: 1px solid #969696!important;
 	color: #413f48;
 	background-color: transparent;
 }
 
-.btn-parallel:hover {
-	background-color: none;
+.btn-parallel:active {
+	transform: translateY(10px);
+}
+
+.btn-parallel:hover, .btn-parallel:focus, .btn-parallel:active, .btn-login-pd:hover,.btn-login-pd:active, .btn-login-pd:focus {
+	background-color: none!important;
+	border-color: none!important;
 	background: url('../img/universe.jpg')!important;
 	-webkit-transition: background 1000ms linear;
     -ms-transition: background 1000ms linear;
     transition: background 1000ms linear;
     opacity: 0.8!important;
+    transition: all 0.5s ease-in-out;
+    box-shadow: none!important;
 }
 
 @media (max-width: 700px) {
@@ -913,6 +926,10 @@ ul.nav-item li {
 
 ul.nav-item li.icon {
 	display: none
+}
+
+.navbar {
+	padding: 0!important;
 }
 
 .navbar-mobile {
@@ -1505,4 +1522,92 @@ section.stayInTouch {
 
 .my-3 {
 	margin: 1rem 0px!important;
+}
+
+.dropdown-login {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.caret {
+	color: #fff;
+}
+
+.link-login {
+	font-size: 12px;   
+    text-align: center;
+    text-decoration: none;
+    line-height: 18px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+    font-weight: 700;
+    font-family: 'geomanist';
+    text-transform: none!important;
+    margin-left: 0!important;
+    color: #fff!important;
+    
+}
+
+.dropdown-menu {		
+	color: #fff;
+    background: #413f48;
+    border: 0;
+    left: 0px;
+    top: 40px;
+    min-width: 170px;
+}
+
+.dropdown-menu a {
+	display: block;
+	text-align: center;
+	padding: 8.5px 10px;
+}
+
+.dropdown-menu a:hover li {
+	color: #969696!important;
+}
+
+
+.dropdown-menu hr {
+	margin: 0 10px;
+	color: rgba(0,0,0,0.6);
+	border:0;
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+.navbar .row {
+	width: 100%;
+}
+
+.carousel-img {
+	max-height: 400px;
+	overflow: hidden;
+}
+
+.mobile-subheadings {
+	font-size: 16px!important;
+	color: #969696!important;
+}
+
+.btn-login-pd {
+	zoom: 1.3;
+	margin: 0 auto;
+	display: block;
+	margin-top: 10px;
+}
+
+.mobile-toggle-title {	
+    font-size: 18px;    
+    margin-left: 0;    
+    text-transform: uppercase;
+    font-family: 'geomanist';
+    font-weight: 700;
+    color: #5ec7f2;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
