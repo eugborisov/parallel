@@ -1141,6 +1141,25 @@ section.statement p {
 	}
 }
 
+.advisor p {
+	min-height: 81px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.advisor p {
+	min-height: 108px;
+}
+}
+
+@media (max-width: 500px) {
+	.advisor {
+	margin-bottom: 40px;
+}
+	.advisor p {
+	min-height: 50px;
+}
+}
+
 .team-image {
 	border-radius: 0;
 	float: right;
@@ -1167,7 +1186,7 @@ section.statement p {
 	height: 100%;
 	border-radius: 0;
 	-o-object-fit: cover;
-	object-fit: cover
+	object-fit: cover;
 }
 
 @media screen and (max-width:62em) {
@@ -1461,7 +1480,19 @@ section.join .btn {
 .leadership-card {
 	background: #f5f5f5;
 	padding: 20px;
-	min-height: 430px
+	min-height: 484px;
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+	.leadership-card {
+	min-height: 808px;
+}
+}
+
+@media (min-width: 1001px) and (max-width: 1160px) {
+	.leadership-card {
+	min-height: 565px;
+}
 }
 
 .leadership-card .social-icon {
@@ -1611,3 +1642,40 @@ section.stayInTouch {
     margin-bottom: 10px;
     padding-bottom: 10px;
 }
+
+.enter-pd-text {
+	text-align: center;
+}
+
+@media (max-width: 330px) {
+	.enter-pd-text h1 {
+	position: relative;
+	bottom: 220px;
+}
+	
+	.enter-pd-text p {
+	text-align: center!important;
+}
+
+	.enter-pd-slider {
+		position: relative;
+		top: 80px;
+	}
+}
+
+@media (min-width: 331px) and (max-width: 576px) {
+	.enter-pd-text h1 {
+	position: relative;
+	bottom: 260px;
+}
+
+	.enter-pd-text p {
+	text-align: center!important;
+}
+
+	.enter-pd-slider {
+		position: relative;
+		top: 80px;
+	}
+}
+
