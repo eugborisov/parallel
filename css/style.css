@@ -1785,7 +1785,7 @@ section.stayInTouch {
 }
 
 .enter-pd-carousel {
-	max-width: 400px;
+	max-width: 600px;
 	margin: 0 auto;
 }
 
@@ -1793,6 +1793,12 @@ section.stayInTouch {
 	.enter-pd-carousel {
 	margin-bottom: -10px;
 }
+}
+
+@media (min-width: 569px) and (max-width: 769px) {
+	.enter-pd-carousel {
+		max-width: 400px;
+	}
 }
 
 	@media (max-width: 576px) {
