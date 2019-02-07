@@ -1645,6 +1645,11 @@ section.stayInTouch {
     
 }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+
 .dropdown-menu {		
 	color: #fff;
     background: #413f48;
@@ -1746,6 +1751,13 @@ section.stayInTouch {
 	}
 }
 
+
+.enter-pd-form {
+	width: 70%;
+	min-width: 280px;
+	margin-top: 20px;
+}
+
 	@media (max-width: 576px) {
 		.use-case-container h5 {
 			margin-top: 20px;
@@ -1779,4 +1791,8 @@ section.stayInTouch {
 	.news-mentions p {
 		min-height: 160px;
 	}
+}
+
+#emailHelp {
+	text-align: left;
 }
