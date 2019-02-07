@@ -709,13 +709,14 @@ input {
 	font-family: 'geomanist'
 }
 
-input[type="email"] {
+input[type="email"], input[type="password"] {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	border: 1px solid #e2e7eb;
 	padding: 9px 15px;
 	width: 100%;
-	background: #fff
+	background: #fff;
+	font-size: 16px;
 }
 
 input[type="text"] {

@@ -159,9 +159,56 @@
                   <h1 style="text-transform: uppercase;">Enter the Parallel Domain</h1>
                   <h5 style="padding-bottom: 20px">Automating the creation of virtual worlds.</h2>
                   <p style="text-align: left;">In the Parallel Domain world portal, you can view and explore the continuously-expanding virtual worlds offered by Parallel Domain in your web browser. <br><br>Welcome to Parallel Domain.</p>
-                  <a href="mailto: info@paralleldomain.com?subject=Requesting Info about Parallel Domain World Portal&body=Name:%0D%0AAssociation:%0D%0AHow did you hear about us?:%0D%0A%0D%0AMessage:%0D%0A" target="_blank">
-                     <button class="btn large btn-login-pd">Login to Parallel Domain</button>
-                  </a>
+                  
+                     <button class="btn large btn-login-pd" data-toggle="modal" data-target="#exampleModal">Login to Parallel Domain</button>
+                
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                       <div class="modal-dialog modal-dialog-centered" role="document">
+                         <div class="modal-content">
+                           <div class="modal-header">
+                             <h5 class="modal-title" id="exampleModalLabel">Sign in</h5>
+                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                               <span aria-hidden="true">&times;</span>
+                             </button>
+                           </div>
+                           <div class="modal-body">
+                             <form class="needs-validation" novalidate>
+                                <div class="form-group">                      
+                                  <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">                      
+                                </div>
+                                <div class="form-group">                      
+                                  <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password">
+                                  <small id="emailHelp" class="form-text text-muted">
+                                    <a href="mailto: info@paralleldomain.com?subject=Requesting Info about Parallel Domain World Portal&body=Name:%0D%0AAssociation:%0D%0AHow did you hear about us?:%0D%0A%0D%0AMessage:%0D%0A">Register for an account</a>
+                                 </small>
+                                </div>                                
+                                <button type="submit" class="btn btn-primary large">Submit</button>                            
+                              </form>
+                              <script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                  
                </div>
 
             </div>
