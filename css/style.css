@@ -1692,9 +1692,8 @@ section.stayInTouch {
 }
 
 .btn-login-pd {
-	zoom: 1.3;
-	margin: 0 auto;
 	display: block;
+	margin: 0 auto;
 	margin-top: 20px;
 }
 
@@ -1741,6 +1740,7 @@ section.stayInTouch {
 	bottom: 260px;
 }
 
+
 	.enter-pd-text p {
 	text-align: center!important;
 }
@@ -1751,11 +1751,48 @@ section.stayInTouch {
 	}
 }
 
+@media (min-width: 577px) and (max-width: 769px) {
+	.enter-pd-text h1 {
+	position: relative;
+	bottom: 340px;
+}
+
+ .enter-pd-text p {
+ 	position: relative;
+ 	bottom: 20px;
+ }
+}
 
 .enter-pd-form {
+	margin-top: 20px!important;
+}
+
+.enter-pd-form, .enter-pd-text p {
 	width: 70%;
-	min-width: 280px;
-	margin-top: 20px;
+	min-width: 200px;
+	margin: 0 auto;
+}
+
+@media (max-width: 568px) {
+	.enter-pd-text p {
+		width: 100%;
+		margin-top: 0px;
+	}
+
+	.enter-pd-form {
+		width: 100%;
+	}
+}
+
+.enter-pd-carousel {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+@media (max-width: 568px) {
+	.enter-pd-carousel {
+	margin-bottom: -10px;
+}
 }
 
 	@media (max-width: 576px) {
@@ -1795,4 +1832,5 @@ section.stayInTouch {
 
 #emailHelp {
 	text-align: left;
+	padding-left: 15px;
 }
