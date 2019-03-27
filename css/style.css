@@ -676,7 +676,7 @@ button.full-width {
 	transform: translateY(10px);
 }
 
-.btn-parallel:hover, .btn-parallel:focus, .btn-parallel:active, .btn-login-pd:hover,.btn-login-pd:active, .btn-login-pd:focus {
+.btn-parallel:hover, .btn-parallel:focus, .btn-parallel:active, .btn-login-pd:hover,.btn-login-pd:active, .btn-login-pd:focus, .btn-hover {
 	background-color: none!important;
 	border-color: none!important;
 	background: url('../img/universe.jpg')!important;
@@ -1645,10 +1645,10 @@ section.stayInTouch {
     
 }
 
-.dropdown:hover .dropdown-menu {
+/*.dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0; // remove the gap so it doesn't close
- }
+ }*/
 
 .dropdown-menu {		
 	color: #fff;

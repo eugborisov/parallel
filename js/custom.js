@@ -132,3 +132,21 @@ $( '.company-table' ).on( 'mousewheel DOMMouseScroll', function ( e ) {
     e.preventDefault();
 });
 });
+
+$(document).ready(function(){
+
+  $('.dropdown-toggle').hover( function() {
+    $(this).attr("aria-expanded", 'true');
+    $(this).addClass('btn-hover');
+    $('.dropdown-menu').addClass('show');
+  });
+  $(document).click(function(event) { 
+  $target = $(event.target);
+  if(!$target.closest('.dropdown-menu').length && 
+  $('.dropdown-menu').hasClass("show")) {
+    $('.dropdown-menu').removeClass('show');
+    $('.dropdown-toggle').attr("aria-expanded", 'false');
+    $('.dropdown-toggle').removeClass('btn-hover');
+  }        
+});
+});
